@@ -1,7 +1,7 @@
 
 # 💎 Naksh Jewels
 
-An elegant e-commerce storefront built using **Next.js 15**, showcasing jewellery products with a modern UI powered by **Tailwind CSS**, **Radix UI**, and other headless component libraries.
+An elegant e-commerce storefront built using **Next.js 15**, showcasing products with a modern UI powered by **Tailwind CSS**, **Radix UI**, and other headless component libraries.
 
 ---
 
