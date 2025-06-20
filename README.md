@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 💎 Naksh Jewels
 
-First, run the development server:
+An elegant e-commerce storefront built using **Next.js 15**, showcasing jewellery products with a modern UI powered by **Tailwind CSS**, **Radix UI**, and other headless component libraries.
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+### 1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/naksh-jewels.git
+cd naksh-jewels
+```
+
+### 2. **Install dependencies**
+Using your preferred package manager:
 
 ```bash
+pnpm install
+# or
+npm install
+# or
+yarn install
+```
+
+### 3. **Start the development server**
+```bash
+pnpm dev
+# or
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit **[http://localhost:3000](http://localhost:3000)** in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧰 Tech Stack
 
-## Learn More
+- **Framework**: [Next.js 15](https://nextjs.org)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com) + [tailwindcss-animate](https://github.com/joe-bell/tailwindcss-animate)
+- **UI Components**: [Radix UI](https://www.radix-ui.com/), [shadcn/ui](https://ui.shadcn.com/)
+- **Icons**: [Lucide](https://lucide.dev)
+- **Data Visualization**: `recharts`
+- **Utilities**: `clsx`, `date-fns`, `class-variance-authority`
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Notes & Assumptions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- This project is a **frontend-only showcase**, with product data stored in a static file under `src/data/products.ts`.
+- Images are sourced from **Unsplash**, and configured in `next.config.ts` to allow remote access.
+- No backend, database, or CMS integration is present — suitable for prototyping or future headless CMS integration.
+- The UI structure follows **App Router conventions** from Next.js 13+ (`/app/page.tsx`, `/app/products`, etc.).
+- Fonts are optimized using [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) with **Geist** via Vercel.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
